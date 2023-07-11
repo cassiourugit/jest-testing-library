@@ -1,4 +1,4 @@
-import { sum } from '../../Function/sum'
+import sum from '../../Function/sum'
 
 describe('Sum unit tests', () => {
     it('Should return 4 when adding 2+2', () => {

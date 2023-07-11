@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button } from '../Components/Button/index'
+import { Button } from '../Components/Button'
 
 interface ListItem {
   id: number;

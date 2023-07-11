@@ -14,7 +14,7 @@ const colorToRGB: Record<ButtonColor, number[]> = {
   red: [255, 0, 0],
 };
 
-const Button: FC<ButtonProps> = ({ color, onClick, children, style }) => {
+export const Button: FC<ButtonProps> = ({ color, onClick, children, style }) => {
   const [pressed, setPressed] = useState(false);
   const [disabled, setDisabled] = useState(false);
   const [hovered, setHovered] = useState(false);
@@ -72,5 +72,3 @@ const Button: FC<ButtonProps> = ({ color, onClick, children, style }) => {
     </button>
   );
 };
-
-export default Button
