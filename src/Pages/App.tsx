@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Button } from '../Components/Button/index'
 
 interface ListItem {
   id: number;
@@ -34,13 +35,13 @@ const App: React.FC = () => {
 
   return (
     <div>
-      <input type="text" value={inputText} onChange={handleInputChange} />
-      <button onClick={handleAddItem}>Adicionar</button>
+      <input style={{height:35, marginRight:10, marginBottom:10}} type="text" value={inputText} onChange={handleInputChange} />
+      <Button onClick={handleAddItem} color={'blue'} children={'Adicionar'}></Button>
       <ul>
         {listItems.map(item => (
-          <li key={item.id}>
+          <li style={{marginLeft:20, marginBottom:10}} key={item.id}>
             {item.text}
-            <button onClick={() => handleRemoveItem(item.id)}>Remover</button>
+              <Button style={{marginLeft:10}} onClick={() => handleRemoveItem(item.id)} color={'red'} children={'Remover'}></Button>
           </li>
         ))}
       </ul>
