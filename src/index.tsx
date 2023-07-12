@@ -9,8 +9,8 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Button color={"blue"} onClick={function (event: React.MouseEvent<HTMLButtonElement, MouseEvent>): void {
-    } } children={"Adicionar"}></Button>
+    <App />
+    {/* <Button color={"blue"} onClick={function (event: React.MouseEvent<HTMLButtonElement, MouseEvent>): void {
+    } } children={"Adicionar"}></Button> */}
   </React.StrictMode>
 );

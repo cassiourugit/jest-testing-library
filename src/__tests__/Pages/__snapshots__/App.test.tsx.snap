@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App tests Should render snapshot 1`] = `
+<div>
+  <h2
+    role="title"
+  >
+    Todos esses carros são confiáveis
+  </h2>
+  <input
+    data-testid="input_field"
+    onChange={[Function]}
+    role="input"
+    style={
+      Object {
+        "height": 35,
+        "marginBottom": 10,
+        "marginRight": 10,
+      }
+    }
+    type="text"
+    value=""
+  />
+  <button
+    data-testid="btn_adicionar"
+    onClick={[Function]}
+    onMouseDown={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    style={
+      Object {
+        "backgroundColor": "rgb(0, 0, 255)",
+        "border": "none",
+        "borderRadius": "5px",
+        "color": "white",
+        "cursor": "pointer",
+        "padding": "10px 20px",
+        "transition": "background-color 0.3s ease",
+      }
+    }
+  >
+    Adicionar
+  </button>
+  <ul>
+    <li
+      style={
+        Object {
+          "marginBottom": 10,
+          "marginLeft": 20,
+        }
+      }
+    >
+      Toyota
+      <button
+        data-testid="btn_remover_Toyota"
+        onClick={[Function]}
+        onMouseDown={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(255, 0, 0)",
+            "border": "none",
+            "borderRadius": "5px",
+            "color": "white",
+            "cursor": "pointer",
+            "marginLeft": 10,
+            "padding": "10px 20px",
+            "transition": "background-color 0.3s ease",
+          }
+        }
+      >
+        Remover
+      </button>
+    </li>
+    <li
+      style={
+        Object {
+          "marginBottom": 10,
+          "marginLeft": 20,
+        }
+      }
+    >
+      Honda
+      <button
+        data-testid="btn_remover_Honda"
+        onClick={[Function]}
+        onMouseDown={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(255, 0, 0)",
+            "border": "none",
+            "borderRadius": "5px",
+            "color": "white",
+            "cursor": "pointer",
+            "marginLeft": 10,
+            "padding": "10px 20px",
+            "transition": "background-color 0.3s ease",
+          }
+        }
+      >
+        Remover
+      </button>
+    </li>
+    <li
+      style={
+        Object {
+          "marginBottom": 10,
+          "marginLeft": 20,
+        }
+      }
+    >
+      Suzuki
+      <button
+        data-testid="btn_remover_Suzuki"
+        onClick={[Function]}
+        onMouseDown={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(255, 0, 0)",
+            "border": "none",
+            "borderRadius": "5px",
+            "color": "white",
+            "cursor": "pointer",
+            "marginLeft": 10,
+            "padding": "10px 20px",
+            "transition": "background-color 0.3s ease",
+          }
+        }
+      >
+        Remover
+      </button>
+    </li>
+    <li
+      style={
+        Object {
+          "marginBottom": 10,
+          "marginLeft": 20,
+        }
+      }
+    >
+      Nissan
+      <button
+        data-testid="btn_remover_Nissan"
+        onClick={[Function]}
+        onMouseDown={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(255, 0, 0)",
+            "border": "none",
+            "borderRadius": "5px",
+            "color": "white",
+            "cursor": "pointer",
+            "marginLeft": 10,
+            "padding": "10px 20px",
+            "transition": "background-color 0.3s ease",
+          }
+        }
+      >
+        Remover
+      </button>
+    </li>
+  </ul>
+</div>
+`;

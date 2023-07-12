@@ -7,6 +7,7 @@ interface ButtonProps {
   onClick: (event: MouseEvent<HTMLButtonElement>) => void;
   style?: CSSProperties;
   children: string;
+  testID?: string;
 }
 
 const colorToRGB: Record<ButtonColor, number[]> = {
@@ -14,7 +15,7 @@ const colorToRGB: Record<ButtonColor, number[]> = {
   red: [255, 0, 0],
 };
 
-export const Button: FC<ButtonProps> = ({ color, onClick, children, style }) => {
+export const Button: FC<ButtonProps> = ({ color, onClick, children, style, testID = 'btn' }) => {
   const [pressed, setPressed] = useState(false);
   const [disabled, setDisabled] = useState(false);
   const [hovered, setHovered] = useState(false);
@@ -60,7 +61,7 @@ export const Button: FC<ButtonProps> = ({ color, onClick, children, style }) => 
 
   return (
     <button
-      data-testid='btn_adicionar'
+      data-testid={testID}
       style={buttonStyle}
       onClick={onClick}
       onMouseDown={handleMouseDown}
